@@ -1,0 +1,35 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+/* Style for the form container */
+#islog-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#islog-form input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#islog-form input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+#islog-form input[type=submit]:hover {
+  background-color: #45a049;
+}
+#islog-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
